@@ -39,10 +39,35 @@
 
 \tableofcontents
 
-\section{Sección introductoria}
-Esta es la primera sección, podemos agregar algunos elementos adicionales y todo será escrito correctamente. Más aún, si una palabra es demasiado larga y tiene que ser truncada, babel tratará de truncarla correctamente dependiendo del idioma.
+\section{Defina que es la memoria del computador.}
+El proceso completo para que la CPU pueda realizar una operación es como sigue: la CPU lee las instrucciones necesarias desde un dispositivo de entrada, las carga en la memoria y las ejecuta. El resultado queda almacenado de nuevo en la memoria y posteriormente se podrá visualizar a través de un periférico de salida. Para almacenar información la memoria está formada por un conjunto de casillas o células, llamadas posiciones de memoria, en las que coloca instrucciones y datos. Para que el ordenador pueda acceder a los que necesite en cada momento, cada una de las posiciones de memoria está identificada por un número, denominado dirección de memoria. Cada posición de memoria almacena un byte. Para medir el número tan elevado de células de memoria que necesita un ordenador se emplean los megabytes y los gigabytes. En informática, la memoria (también llamada almacenamiento) se refiere a parte de los componentes que integran una computadora. Son dispositivos que retienen datos informáticos durante algún intervalo de tiempo. Las memorias de computadora proporcionan una de las principales funciones de la computación moderna, la retención o almacenamiento de información. Es uno de los componentes fundamentales de todas las computadoras modernas que, acoplados a una unidad central de procesamiento (CPU por su sigla en inglés, central processing unit), implementa lo fundamental del modelo de computadora de Arquitectura de von Neumann, usado desde los años 1940. En la actualidad, memoria suele referirse a una forma de almacenamiento de estado sólido conocido como memoria RAM (memoria de acceso aleatorio, RAM por sus siglas en inglés random access memory) y otras veces se refiere a otras formas de almacenamiento rápido pero temporal. De forma similar, se refiere a formas de almacenamiento masivo como discos ópticos y tipos de almacenamiento magnético como discos duros y otros tipos de almacenamiento más lentos que las memorias RAM, pero de naturaleza más permanente. Estas distinciones contemporáneas son de ayuda porque son fundamentales para la arquitectura de computadores en general. Además, se refleja una diferencia técnica importante y significativa entre memoria y dispositivos de almacenamiento masivo, que se ha ido diluyendo por el uso histórico de los términos "almacenamiento primario" (a veces "almacenamiento principal"), para memorias de acceso aleatorio, y "almacenamiento secundario" para dispositivos de almacenamiento masivo. Esto se explica en las siguientes secciones, en las que el término tradicional "almacenamiento" se usa como subtítulo por conveniencia.
 
-\bibliographystyle{IEEEtran}
-\bibliography{references}
+\section{Mencione los tipos de memoria que conoce y haga una pequeña descripción de cada tipo.}
+\subsection{Memoria ROM (Read Only Memory)}
+Esta memoria es de solo lectura, es decir, no se puede escribir en ella. Su información fue grabada por el fabricante al construir el equipo y no desaparece al apagar el ordenador. Esta memoria es imprescindible para el funcionamiento del ordenador y contiene instrucciones y datos técnicos de los distintos componentes del ordenador.
+
+\subsection{Memoria RAM (Random Access Memory)}
+Esta memoria permite almacenar y leer la información que la CPU necesita mientras está ejecutando un programa, Además, almacena los resultados de las operaciones efectuadas por ella. Este almacenamiento es temporal, ya que la información se borra al apagar el ordenador. la memoria RAM se instala en los zócalos que para ello posee la placa base
+
+En informática, memoria basada en semiconductores que puede ser leída y escrita por el microprocesador u otros dispositivos de hardware. Es un acrónimo del inglés Random Access Memory. Se puede acceder a las posiciones de almacenamiento en cualquier orden.
+
+\section{Describa la manera como se gestiona la memoria en un computador.}
+
+Como el microprocesador no es capaz por sí solo de albergar la gran cantidad de memoria necesaria para almacenar instrucciones y datos de programa (por ejemplo, el texto de un programa de tratamiento de texto), pueden emplearse transistores como elementos de memoria en combinación con el microprocesador. Para proporcionar la memoria necesaria se emplean otros circuitos integrados llamados chips de memoria de acceso aleatorio (RAM, siglas en inglés), que contienen grandes cantidades de transistores. Existen diversos tipos de memoria de acceso aleatorio. La RAM estática (SRAM) conserva la información mientras esté conectada la tensión de alimentación, y suele emplearse como memoria cache porque funciona a gran velocidad. Otro tipo de memoria, la RAM dinámica (DRAM), es más lenta que la SRAM y debe recibir electricidad periódicamente para no borrarse. La DRAM resulta más económica que la SRAM y se emplea como elemento principal de memoria en la mayoría de las computadoras.
+
+\section{¿Qué hace que una memoria sea más rápida que otra? ¿Por qué esto es importante?}
+DDR significa Double Data Rate, y básicamente significa que son capaces de realizara dos tareas de escritura y dos de lectura por cada ciclo de reloj. Esto es lo que todas las generaciones tienen en común, pero lógicamente a cada nueva generación se han ido implementando cambios y mejoras que los hacen técnicamente muy diferentes.
+
+\subsection{Memoria RAM DDR:}
+Memoria RAM DDR: lanzada en el año 2000, no empezó a usarse hasta casi 2002. Operaba a 2.5V y 2.6V y su densidad máxima era de 128 Mb (por lo que no había módulos con más de 1 GB) con una velocidad de 266 MT/s (100-200 MHz).
+
+\subsection{Memoria RAM DDR2:}
+Memoria RAM DDR2: lanzada hacia 2004, funcionaba a un voltaje de 1.8 voltios, un 28% menos que DDR. Se dobló su densidad máxima hasta los 256 Mb (2 GB por módulo). Lógicamente la velocidad máxima también se multiplicó, llegando a 533 MHz.
+
+\subsection{Memoria RAM DDR3:}
+Este lanzamiento se produjo en 2007, y supuso toda una revolución porque aquí se implementaron los perfiles XMP. Para empezar los módulos de memoria operaban a 1.5V y 1.65V, con velocidades base de 1066 MHz pero que llegaron mucho más allá, y la densidad llegó hasta a 8 GB por módulo.
+
+\subsection{Memoria RAM DDR4:}
+Este lanzamiento se hizo de rogar y no llegó hasta 2014, pero a día de hoy es ya el más extendido. Se reduce el voltaje hasta 1.05 y 1.2V, aunque muchos módulos operan a 1.35V. La velocidad se ha visto notablemente incrementada y cada vez lanzan memorias más rápidas de fábrica, pero su base comenzó en los 2133 MHz. Actualmente ya hay módulos de 32 GB, pero esto también se va ampliando poco a poco.
 
 \end{document}
